@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<endpoints version="2.0" xmlns="http://java.sun.com/xml/ns/jax-ws/ri/runtime">
+  <endpoint implementation="www.venta.ws.VentaWebService" name="VentaWebService" url-pattern="/VentaWebService"/>
+  <endpoint implementation="www.venta.ws.ClienteWebService" name="ClienteWebService" url-pattern="/ClienteWebService"/>
+  <endpoint implementation="www.venta.ws.ProductoWebService" name="ProductoWebService" url-pattern="/ProductoWebService"/>
+  <endpoint implementation="www.venta.ws.DetalleWebService" name="DetalleWebService" url-pattern="/DetalleWebService"/>
+</endpoints>
